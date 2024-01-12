@@ -1,4 +1,4 @@
-import { ArrowIcon, Button, CloseIcon, Link, Paragraph } from '..'
+import { ArrowIcon, Buttons, CloseIcon, Link, Paragraph } from '..'
 
 interface NavbarProps {
   className: string
@@ -30,12 +30,12 @@ function Navbar({ className, state, changeState }: NavbarProps) {
         <Link className='text-green-500 font-medium text-lg' href='#'>
           Login
         </Link>
-        <Button className='green-button grid gap-4 text-white items-center hover:bg-green-900 ease-linear duration-300 transition-opacity-colors group'>
+        <Buttons className='green-button grid gap-4 text-white items-center hover:bg-green-900 ease-linear duration-300 transition-opacity-colors group'>
           <Paragraph type='span' className='col-start-1 col-end-2 hover:col-span-full group-hover:translate-x-3.5 transition-transform'>
             JOIN US
           </Paragraph>
           <ArrowIcon className='fill-white hover:-translate-x-5 group-hover:opacity-0 col-start-2 col-end-3' />
-        </Button>
+        </Buttons>
       </div>
     </nav>
   )
