@@ -1,13 +1,14 @@
-import { Header, Hero, Services, Stats } from './components'
+import { Feature, Header, Hero, Services, Stats } from './components'
 
 function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className='flex flex-col '>
         <Hero />
         <Services />
         <Stats />
+        <Feature />
       </main>
     </>
   )

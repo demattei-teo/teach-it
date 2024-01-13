@@ -9,7 +9,7 @@ interface ServicesCardProps {
 }
 
 function ServicesCard({ children, className, title, description }: ServicesCardProps) {
-  const wrapperStyles = clsx('z-20 bg-white flex flex-col gap-5 shadow-lg py-9 px-10', className)
+  const wrapperStyles = clsx('z-30 bg-white flex flex-col gap-5 shadow-lg py-9 px-10', className)
   return (
     <article className={wrapperStyles}>
       {children}
