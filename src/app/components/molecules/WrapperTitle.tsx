@@ -5,10 +5,10 @@ import { TitleProps } from '../atoms/Title'
 interface WrapperTitleProps {
   titleHeadingLevel: TitleProps['headingLevel']
   pretitle?: string
-  children: React.ReactNode
+  children?: React.ReactNode
   className: string
   title: string
-  fontSizeTitle: 'hero' | 'section'
+  fontSizeTitle: 'hero' | 'section' | 'card'
 }
 
 function WrapperTitle({ titleHeadingLevel, pretitle, children, className, title, fontSizeTitle }: WrapperTitleProps) {
@@ -17,7 +17,8 @@ function WrapperTitle({ titleHeadingLevel, pretitle, children, className, title,
     title: clsx(
       'font-bold col-span-full',
       fontSizeTitle === 'hero' && 'text-4xl md:text-6xl',
-      fontSizeTitle === 'section' && 'text-3xl md:text-5xl'
+      fontSizeTitle === 'section' && 'text-3xl md:text-5xl',
+      fontSizeTitle === 'card' && 'text-xl md:text-2xl'
     )
   }
   return (
