@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { MenuIcons, Navbar, Paragraph } from '..'
 
 function Header() {
-  const [state, setState] = useState(true)
+  const [state, setState] = useState(false)
   function changeState(state: boolean) {
     setState(!state)
   }
