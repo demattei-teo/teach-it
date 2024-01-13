@@ -1,12 +1,13 @@
-import { Header, Hero, Services } from './components'
+import { Header, Hero, Services, Stats } from './components'
 
 function Home() {
   return (
     <>
       <Header />
-      <main className='py-14'>
+      <main>
         <Hero />
         <Services />
+        <Stats />
       </main>
     </>
   )
