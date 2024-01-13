@@ -38,7 +38,7 @@ function Hero() {
         priority
         src='/images/hero.png'
         alt='student image'
-        className='object-contain hidden lg:block self-center justify-self-center'
+        className='object-contain z-0 hidden lg:block self-center justify-self-center'
       />
     </section>
   )
