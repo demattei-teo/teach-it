@@ -1,4 +1,4 @@
-import { Header, Hero } from './components'
+import { Header, Hero, Services } from './components'
 
 function Home() {
   return (
@@ -6,6 +6,7 @@ function Home() {
       <Header />
       <main className='py-14'>
         <Hero />
+        <Services />
       </main>
     </>
   )
