@@ -3,7 +3,7 @@ import { ArrowIcon, Link, Paragraph, WrapperTitle } from '..'
 
 function Feature() {
   return (
-    <section className='wrapper items-center grid md:grid-cols-2 gap-12 py-48'>
+    <section className='wrapper items-center grid md:grid-cols-2 gap-12 pt-48'>
       <WrapperTitle
         fontSizeTitle='section'
         className='py-16 flex gap-7 flex-col relative before:absolute before:top-0 before:left-0 before:w-[20%] before:h-1.5 before:bg-red-500'
