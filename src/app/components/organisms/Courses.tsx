@@ -2,7 +2,7 @@ import { CoursesCard, Paragraph, WrapperTitle } from '..'
 
 function Courses() {
   return (
-    <section className='wrapper w-full grid gap-16 items-start pt-48'>
+    <section className='wrapper w-full grid gap-16 items-start py-48'>
       <WrapperTitle
         title='Our Experts Teacher'
         pretitle='Practice Advice'

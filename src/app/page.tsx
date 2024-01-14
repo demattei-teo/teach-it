@@ -1,4 +1,4 @@
-import { Courses, Feature, Header, Hero, Services, Stats } from './components'
+import { Courses, Feature, Footer, Header, Hero, Services, Stats } from './components'
 
 function Home() {
   return (
@@ -11,6 +11,7 @@ function Home() {
         <Feature />
         <Courses />
       </main>
+      <Footer />
     </>
   )
 }
